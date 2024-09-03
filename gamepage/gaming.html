@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>games</title>
+    <link rel="stylesheet" href="stylesg.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Banner Section -->
+    <div class="banner">
+        <h1>العاب لعبتها</h1>
+        <button id="mainpagebuuton" ><a id="t" href="../index.html">Go back</a></button>
+    </div>
+    <!-- main page -->
+     
+
+    <!-- Games Section -->
+    <div class="games-container">
+        <!-- Example Game Circle -->
+        <div class="game-circle" data-game="1">
+            <img src="gamespic/capsule_616x353.jpg" alt="game1">
+        </div>
+        <div class="game-circle" data-game="2">
+            <img src="gamespic/elden-ring-plakat.webp" alt="game2">
+        </div>
+        <div class="game-circle" data-game="3">
+            <img src="gamespic/Overwatch_cover_art.jpg" alt="game3">
+        </div>
+        <div class="game-circle" data-game="4">
+            <img src="gamespic/red-bull-campus-clutch-new-zealand.avif" alt="game4">
+        </div>
+        <div class="game-circle" data-game="5">
+            <img src="gamespic/paragon.jpg" alt="game5">
+        </div>
+        <div class="game-circle" data-game="6">
+            <img src="gamespic/fortnite.png" alt="game6">
+        </div>
+        <div class="game-circle" data-game="7">
+            <img src="gamespic/brawl.jpg" alt="game7">
+        </div>
+        <!-- Add more game circles similarly -->
+    </div>
+
+    <!-- Modal for Game Details -->
+    <div id="gameModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="gameTitle"></h2>
+            <p id="gameReview"></p>
+            <div id="gameRating" class="stars"></div>
+        </div>
+    </div>
+
+    <script src="scriptsg.js"></script>
+</body>
+</html>
